@@ -1,5 +1,5 @@
 # absolute import
-from portfolio.assets import make_asset
+from .core.assets import make_asset
 
 # relative import
 # from .assets import make_asset
