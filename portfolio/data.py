@@ -1,3 +1,9 @@
+# absolute import
+from portfolio.assets import make_asset
+
+# relative import
+# from .assets import make_asset
+
 def create_portfolio(name: str) -> dict:
     return {
         "name": name,
